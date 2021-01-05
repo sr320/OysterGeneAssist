@@ -21,5 +21,3 @@ locusMerge <- merge(x=oysterblast_uniprot, y=LOC_seqID_key, by.x='X2', by.y='V1'
 
 #merge cluster # to new file based off locus ID
 clusterFunction <- merge(x=locusMerge, y=`top25markers_allcells_072720.(1)`, by.x='V2', by.y='gene_id', fill=-9999)
-
-
