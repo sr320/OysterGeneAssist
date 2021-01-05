@@ -17,10 +17,3 @@ top25markers_allcells_072720.(1) is the cell groups and top 25 marker genes for 
 clusterFunction.csv is what I got when I tried to merge top marker file with locusUniprotMerge, but it deleted any redundancies and any tissue specificity, induction, and developmental stage info in doing so :(
 
 Merge blast and uniprot.R is the code I have for all this so far.
-
-
-
-
-
-
-Updated 2020 1115
