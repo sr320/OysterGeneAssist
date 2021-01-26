@@ -12,6 +12,7 @@
 'locusUniprotMerge.csv' is locus# merged with oysterblast_uniprot.csv in order to get locus# associated with the appropriate sample row which is necessary to later merge the file that has the cell group/cluster/module number
 
 'top25markers_allcells_072720.(1).txt' is the cell groups and top 25 marker genes for each cell as text file
+
 'top25marker.csv' is the same file as above but as a csv
 
 'clusterFunction.csv' is what I got when I tried to merge top marker file with locusUniprotMerge, but it deleted any redundancies and any tissue specificity, induction, and developmental stage info in doing so :(
@@ -20,6 +21,7 @@
 'top25marker_sorted.csv' is 'top25marker.csv' sorted by column 2 which contains gene_id in the format LOC#########
 
 'locusMerge.csv' is the uniprot results associated with each sample and gene ID (gene ID in the format of LOC#########)
+
 'locusMerge_sorted.csv' is the same file as above sorted by column 14 which contains gene ID in the same format as above 
 #### This ^ Sort is not Working
 
