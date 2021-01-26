@@ -21,6 +21,6 @@
 
 'locusMerge.csv' is the uniprot results associated with each sample and gene ID (gene ID in the format of LOC#########)
 'locusMerge_sorted.csv' is the same file as above sorted by column 14 which contains gene ID in the same format as above 
-##### This Sort is not Working
+#### This ^ Sort is not Working
 
 'locusMarkerInfo.csv' should be the final output of 'join'ing 'locusMerge_sorted.csv' and 'top25marker_sorted.csv', but since the sort isn't working the files are combining in a funky way where one file is added to the bottom row of the other file, rather than being added to the columns. 
